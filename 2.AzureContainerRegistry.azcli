@@ -1,1 +1,49 @@
+
+
+
+
+# check azure-cli is installed
 az --version
+
+
+
+# log in to azure
+az login
+
+
+
+# create a resource group
+az group create --name myResourceGroup --location westus2
+
+
+# create registry
+az acr create --resource-group myResourceGroup --name myContainerRegistry007 --sku Basic
+
+
+# log into registry
+az acr login --name <acrName>
+
+
+
+# find fully qualified name of registry login server
+az acr list --resource-group myResourceGroup --query "[].{acrLoginServer:loginServer}" --output table
+
+
+
+# list local docker images
+docker images
+
+
+
+# tag local image with ACR name
+docker tag microsoft/aci-helloworld <acrLoginServer>/aci-helloworld:v1
+
+
+
+# push image to repository
+docker push <acrLoginServer>/aci-helloworld:v1
+
+
+
+# list images in repository
+az acr repository list --name <acrName> --output table
