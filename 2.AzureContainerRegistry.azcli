@@ -13,22 +13,22 @@ az login
 
 
 # create a resource group
-az group create --name myResourceGroup --location westus2
+az group create --name apcontainers1 --location westus2
 
 
 
 # create registry
-az acr create --resource-group myResourceGroup --name myContainerRegistry007 --sku Basic
+az acr create --resource-group apcontainers1 --name ApContainerRegistry01 --sku Basic
 
 
 
 # log into registry
-az acr login --name <acrName>
+az acr login --name ApContainerRegistry01
 
 
 
 # find fully qualified name of registry login server
-az acr list --resource-group myResourceGroup --query "[].{acrLoginServer:loginServer}" --output table
+az acr list --resource-group apcontainers1 --query "[].{acrLoginServer:loginServer}" --output table
 
 
 
@@ -38,14 +38,15 @@ docker images
 
 
 # tag local image with ACR name
-docker tag microsoft/aci-helloworld <acrLoginServer>/aci-helloworld:v1
+docker tag dbafromthecold/sqlserverlinuxagent apcontainerregistry01.azurecr.io/sqlserverlinuxagent:latest
 
 
 
 # push image to repository
-docker push <acrLoginServer>/aci-helloworld:v1
+docker push apcontainerregistry01.azurecr.io/sqlserverlinuxagent:latest
 
 
 
 # list images in repository
-az acr repository list --name <acrName> --output table
+az acr repository list --name apcontainerregistry01 --output table
+
