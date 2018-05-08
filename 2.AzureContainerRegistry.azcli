@@ -16,8 +16,10 @@ az login
 az group create --name myResourceGroup --location westus2
 
 
+
 # create registry
 az acr create --resource-group myResourceGroup --name myContainerRegistry007 --sku Basic
+
 
 
 # log into registry

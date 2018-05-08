@@ -7,7 +7,7 @@ az --version
 
 
 
-# loging to azure
+# log in to azure
 az login
 
 
