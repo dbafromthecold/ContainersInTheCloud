@@ -42,11 +42,25 @@ docker tag dbafromthecold/sqlserverlinuxagent apcontainerregistry01.azurecr.io/s
 
 
 
-# push image to repository
+# push image to registry
 docker push apcontainerregistry01.azurecr.io/sqlserverlinuxagent:latest
 
 
 
-# list images in repository
+# list repositories in registry
 az acr repository list --name apcontainerregistry01 --output table
 
+
+
+# show tags in repository
+az acr repository show-tags --name apcontainerregistry01 --repository sqlserverlinuxagent
+
+
+
+# pull out a bit more information about images
+az acr repository show-manifests --name apcontainerregistry01 --repository sqlserverlinuxagent
+
+
+
+# remove image from the registry
+az acr repository delete --name ApContainerRegistry01 --repository sqlserverlinuxagent
