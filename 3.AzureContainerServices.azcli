@@ -23,12 +23,12 @@ az provider show -n Microsoft.ContainerService
 
 
 # create a resource group for all objects
-az group create --name ApResourceGroup1 --location uswest2
+az group create --name containers1 --location eastus
 
 
 
 # create kubernetes cluster (with 2 nodes)
-az aks create --resource-group ApResourceGroup1 --name mySQLK8sCluster1 --node-count 2 --generate-ssh-keys
+az aks create --resource-group containers1 --name mySQLK8sCluster1 --node-count 2 --generate-ssh-keys
 
 
 
@@ -38,12 +38,27 @@ az aks install-cli
 
 
 # get credentials to connect to cluster
-az aks get-credentials --resource-group ApResourceGroup1 --name mySQLK8sCluster1
+az aks get-credentials --resource-group containers1 --name mySQLK8sCluster1
 
 
 
 # confirm connection to cluster by viewing nodes
 kubectl get nodes
+
+
+
+# Get client ID
+az aks show --resource-group containers1 --name mySQLK8sCluster1 --query "servicePrincipalProfile.clientId" --output tsv
+
+
+
+# Get ACR ID
+az acr show --name TestContainerRegistry02 --resource-group containers1 --query "id" --output tsv
+
+
+
+# Create role to allow deployments
+az role assignment create --assignee <<CLIENTID>> --role Reader --scope <<ACRID>>
 
 
 
@@ -63,7 +78,7 @@ spec:
     spec:
       containers:
       - name: sqlserver1
-        image: microsoft/mssql-server-linux:latest
+        image: microsoft/devsqlimage:latest
         ports:
         - containerPort: 1433
         env:
@@ -83,7 +98,7 @@ spec:
     targetPort: 1433
   selector:
     name: sqlserver
-  type: LoadBalancer' > test.yaml
+  type: LoadBalancer' > sqlserver.yaml
 
 
 
@@ -107,5 +122,10 @@ kubectl get service
 
 
 
-# delete service
-az group delete --name ApResourceGroup1
+# view dashboard
+az aks browse --resource-group containers1 --name mySQLK8sCluster1
+
+
+
+# delete resource group
+az group delete --name containers1
