@@ -1,0 +1,43 @@
+# check azure-cli is installed
+az --version
+
+
+
+# log in to azure
+az login
+
+
+
+# Enable admin on registry
+az acr update -n TestContainerRegistry01 --admin-enabled true
+
+
+
+# Get credentials
+az acr credential show -n TestContainerRegistry01
+
+
+
+# drop credentials into script and create container
+az container create `
+    --resource-group containers1 `
+        --image testcontainerregistry01.azurecr.io/devsqlimage:latest `
+            --registry-username TestContainerRegistry01 `
+				--registry-password ZBz+zlpWiCF2W2eVCBMMRoA9rFXaZpKt `
+					--name testcontainer1 `
+						--cpu 2 --memory 4 `
+							--environment-variables ACCEPT_EULA=Y SA_PASSWORD=Testing1122 `
+								--ip-address public `
+									--ports 1433
+						
+
+
+# confirm container created
+az container show --name testcontainer1 --resource-group containers1
+
+
+
+# delete container
+az container delete --name testcontainer1 --resource-group containers1
+
+az container delete --name testcontainer1 --resource-group containers1

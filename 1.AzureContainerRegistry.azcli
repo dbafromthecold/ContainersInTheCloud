@@ -1,7 +1,3 @@
-
-
-
-
 # check azure-cli is installed
 az --version
 
