@@ -8,6 +8,11 @@ az login
 
 
 
+# list registries under resource group
+az acr list --resource-group containers1
+
+
+
 # Enable admin on registry
 az acr update -n TestContainerRegistry01 --admin-enabled true
 
@@ -40,4 +45,3 @@ az container show --name testcontainer1 --resource-group containers1
 # delete container
 az container delete --name testcontainer1 --resource-group containers1
 
-az container delete --name testcontainer1 --resource-group containers1
