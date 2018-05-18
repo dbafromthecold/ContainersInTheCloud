@@ -1,0 +1,62 @@
+# check azure-cli is installed
+az --version
+
+
+
+# log in to azure
+az login
+
+
+
+# log into registry
+az acr login --name TestContainerRegistry01
+
+
+
+# find fully qualified name of registry login server
+az acr list --resource-group containers1 --query "[].{acrLoginServer:loginServer}" --output table
+
+
+
+# list local docker images
+docker images
+
+
+
+# tag local image with ACR name
+docker tag ubuntu TestContainerRegistry01.azurecr.io/ubuntu:latest
+
+
+
+# check images
+docker images
+
+
+
+# push image to registry
+docker push TestContainerRegistry01.azurecr.io/ubuntu:latest
+
+
+
+# list repositories in registry
+az acr repository list --name TestContainerRegistry01 --output table
+
+
+
+# show tags in repository
+az acr repository show-tags --name TestContainerRegistry01 --repository devsqlimage
+
+
+
+# pull out a bit more information about images
+az acr repository show-manifests --name TestContainerRegistry01 --repository devsqlimage
+
+
+
+# remove image from the registry
+az acr repository delete --name TestContainerRegistry01 --repository ubuntu
+
+
+
+# confirm repository is gone
+az acr repository list --name TestContainerRegistry01 --output table

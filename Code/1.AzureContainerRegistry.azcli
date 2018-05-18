@@ -33,13 +33,18 @@ docker images
 
 
 
+# build custom image
+docker build -t testimage C:\git\dbafromthecold\ContainersInTheCloud\Code
+
+
+
 # tag local image with ACR name
-docker tag dbafromthecold/sqlserverlinuxagent TestContainerRegistry01.azurecr.io/sqlserverlinuxagent:latest
+docker tag testimage TestContainerRegistry01.azurecr.io/devsqlimage:latest
 
 
 
 # push image to registry
-docker push TestContainerRegistry01.azurecr.io/sqlserverlinuxagent:latest
+docker push TestContainerRegistry01.azurecr.io/devsqlimage:latest
 
 
 
@@ -49,14 +54,14 @@ az acr repository list --name TestContainerRegistry01 --output table
 
 
 # show tags in repository
-az acr repository show-tags --name TestContainerRegistry01 --repository sqlserverlinuxagent
+az acr repository show-tags --name TestContainerRegistry01 --repository devsqlimage
 
 
 
 # pull out a bit more information about images
-az acr repository show-manifests --name TestContainerRegistry01 --repository sqlserverlinuxagent
+az acr repository show-manifests --name TestContainerRegistry01 --repository devsqlimage
 
 
 
 # remove image from the registry
-az acr repository delete --name TestContainerRegistry01 --repository sqlserverlinuxagent
+az acr repository delete --name TestContainerRegistry01 --repository devsqlimage
