@@ -78,7 +78,7 @@ spec:
     spec:
       containers:
       - name: sqlserver1
-        image: microsoft/devsqlimage:latest
+        image: testcontainerregistry01.azurecr.io/devsqlimage:latest
         ports:
         - containerPort: 1433
         env:
