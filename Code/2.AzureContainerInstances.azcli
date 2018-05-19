@@ -28,7 +28,7 @@ az container create `
     --resource-group containers1 `
         --image testcontainerregistry01.azurecr.io/devsqlimage:latest `
             --registry-username TestContainerRegistry01 `
-				--registry-password ZBz+zlpWiCF2W2eVCBMMRoA9rFXaZpKt `
+				--registry-password 9lPYmcJINdTS4p/bhUFoPo/rKxTLseEo `
 					--name testcontainer1 `
 						--cpu 2 --memory 4 `
 							--environment-variables ACCEPT_EULA=Y SA_PASSWORD=Testing1122 `
@@ -39,6 +39,12 @@ az container create `
 
 # confirm container created
 az container show --name testcontainer1 --resource-group containers1
+
+
+
+# get container logs
+az container logs --name testcontainer1 --resource-group containers1
+
 
 
 
