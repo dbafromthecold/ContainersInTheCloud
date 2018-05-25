@@ -58,7 +58,7 @@ az container create `
 	--registry-password $(az keyvault secret show `
 						--vault-name aptestkeyvault01 `
 						--name testcontainerregistry01-pull-pwd `
-						--query value -output tsv) `
+						--query value --output tsv) `
 	--name testcontainer1 `
 	--cpu 2 --memory 4 `
 	--environment-variables ACCEPT_EULA=Y SA_PASSWORD=Testing1122 `
