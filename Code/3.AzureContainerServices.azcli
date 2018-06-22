@@ -98,7 +98,7 @@ spec:
     targetPort: 1433
   selector:
     name: sqlserver
-  type: LoadBalancer' > sqlserver.yaml
+  type: LoadBalancer' > sqlserver.yml
 
 
 
