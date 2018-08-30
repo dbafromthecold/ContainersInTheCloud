@@ -1,0 +1,1 @@
+docker push testcontainerregistry01.azurecr.io/devsqlimage:latest

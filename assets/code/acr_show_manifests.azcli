@@ -1,0 +1,2 @@
+az acr repository show-manifests --name testcontainerregistry01 --repository devsqlimage
+

@@ -90,9 +90,31 @@ Container image build service<br>
 
 <img src="assets/images/ACR-BuildImage.png">
 
+---?code=assets/code/acr_tag_image.azcli&lang=bash&title=Tag Image
+
+<img src="assets/images/ACR-TagImage.png">
+
+---?code=assets/code/acr_push_image.azcli&lang=bash&title=Push Image
+
+<img src="assets/images/ACR-PushImage.png">
+
+---?code=assets/code/acr_list_repos.azcli&lang=bash&title=List Repositories
+
+<img src="assets/images/ACR-ListRepos.png">
+
+--?code=assets/code/acr_show_tags.azcli&lang=bash%title=Show Tags
+
+<img src="assets/images/ACR-ShowTags.png">
+
+---?code=assets/code/acr_show_manifests.azcli&lang=bash&title=Show Manifests
+
+<img src="assets/images/ACR-ShowManifests.png">
+
 ---
 
-@title[Questions]
+### Demo
+
+---
 
 <img src="assets/images/Questions.png" style="float: right;" size=medium border=none/>
 

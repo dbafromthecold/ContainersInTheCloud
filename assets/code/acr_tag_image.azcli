@@ -1,0 +1,1 @@
+docker tag testimage testcontainerregistry01.azurecr.io/devsqlimage:latest
