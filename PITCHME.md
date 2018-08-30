@@ -84,9 +84,11 @@ Container image build service<br>
 
 <img src="assets/images/ACR-GetRegistryDetails.png">
 
----
+---?code=assets/code/dockerfile&lang=bash&title=Dockerfile
 
+---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
+<img src="assets/images/ACR-BuildImage.png">
 
 ---
 
