@@ -1,10 +1,6 @@
-@title[SQL Containers in the cloud]
-
 # SQL Containers in the Cloud
 
 ---
-
-@title[About me]
 
 ## Andrew Pruski
 
@@ -17,15 +13,57 @@
 
 ---
 
-@title[Session Aim]
-
 ### Session Aim
+
+To give an overview of the different options available to run SQL Server Docker containers in Azure
 
 ---
 
-@title[Agenda]
-
 ### Agenda
+
+Azure Container Registry
+Azure Container Instances
+Azure Container Services
+
+---
+
+## Azure Container Registry
+
+---
+
+### Azure Container Registry
+
+https://azure.microsoft.com/en-us/services/container-registry/
+
+<img src="assets/images/AzureContainerRegistry.png">
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
+---
+
+
 
 ---
 
