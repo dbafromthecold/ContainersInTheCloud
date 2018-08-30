@@ -68,16 +68,13 @@ Container image build service<br>
 
 <img src="assets/images/ACR-Login.png">
 
----
-
----?code=assets/code/acr_create_resource_group.azcli&lang=powershell&title=Create Resource Group
+---?code=assets/code/acr_create_resource_group.azcli&lang=bash&title=Create Resource Group
 
 <img src="assets/images/ACR-CreateResourceGroup.png">
 
----
+---?code=assets/code/acr_create_registry.azcli&lang=bash&title=Create Registry
 
-
----
+---?code=assets/code/acr_login_registry.azcli&lang=bash&title=Log into Registry
 
 
 ---
