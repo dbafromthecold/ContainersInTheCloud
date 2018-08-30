@@ -21,8 +21,8 @@ To give an overview of the different options available to run SQL Server Docker 
 
 ### Agenda
 
-Azure Container Registry
-Azure Container Instances
+Azure Container Registry <br>
+Azure Container Instances <br>
 Azure Container Services
 
 ---
@@ -33,7 +33,7 @@ Azure Container Services
 
 ### Azure Container Registry
 
-https://azure.microsoft.com/en-us/services/container-registry/
+@size[0.6em](https://azure.microsoft.com/en-us/services/container-registry/)
 
 <img src="assets/images/AzureContainerRegistry.png">
 
