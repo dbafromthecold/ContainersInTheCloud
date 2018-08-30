@@ -39,15 +39,38 @@ Azure Container Services
 
 ---
 
+### Terminology
+
+<b>Registry</b><br>
+Service that stores container images<br>
+<br>
+<b>Repository</b><br>
+Groups of container images – Same name, identified by tags<br>
+	
+---
+
+### Features
+
+<b>Encryption</b><br>
+All images encrypted at rest<br>
+<b>Geo-redundant storage</b><br>
+Replication of images<br>
+<b>Geo-replication</b><br>
+Guards against total regional failure<br>
+<b>ACR Build</b><br>
+Container image build service<br>
 
 ---
 
+### SKUs
 
 ---
 
+### Login
 
----
+<img src="assets/images/ACR-Login.png">
 
+---?code=assets/code/acr_login.azcli&lang=bash&title=ACR Login
 
 ---
 
