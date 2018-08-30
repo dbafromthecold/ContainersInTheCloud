@@ -80,8 +80,9 @@ Container image build service<br>
 
 <img src="assets/images/ACR-LoginToRegistry.png">
 
----
+---?code=assets/code/acr_get_registry_details.azcli&lang=bash&title=Get Registry Details
 
+<img src="assets/images/ACR-GetRegistryDetails.png">
 
 ---
 
