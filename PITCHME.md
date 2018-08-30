@@ -70,6 +70,9 @@ Container image build service<br>
 
 ---
 
+---?code=assets/code/acr_create_resource_group.azcli&lang=powershell&title=Create Resource Group
+
+<img src="assets/images/ACR-CreateResourceGroup.png">
 
 ---
 
