@@ -102,7 +102,7 @@ Container image build service<br>
 
 <img src="assets/images/ACR-ListRepos.png">
 
---?code=assets/code/acr_show_tags.azcli&lang=bash%title=Show Tags
+---?code=assets/code/acr_show_tags.azcli&lang=bash%title=Show Tags
 
 <img src="assets/images/ACR-ShowTags.png">
 
@@ -112,7 +112,11 @@ Container image build service<br>
 
 ---
 
-### Demo
+## Demo
+
+---
+
+## Azure Container Instances
 
 ---
 
