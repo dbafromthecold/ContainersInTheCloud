@@ -74,8 +74,11 @@ Container image build service<br>
 
 ---?code=assets/code/acr_create_registry.azcli&lang=bash&title=Create Registry
 
+<img src="assets/images/ACR-CreateRegistry.png">
+
 ---?code=assets/code/acr_login_registry.azcli&lang=bash&title=Log into Registry
 
+<img src="assets/images/ACR-LoginToRegistry.png">
 
 ---
 
