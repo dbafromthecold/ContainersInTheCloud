@@ -172,9 +172,9 @@ Supports mounting external volumes
 
 ---?code=assets/code/aci_create_keyvault.azcli&lang=bash&title=Create Keyvault
 
-@[1](Create keyvault)
-@[3-9](Create service principle and store password)
-@[11-15](Store username)
+@[1-2](Create keyvault)
+@[4-10](Create service principle and store password)
+@[12-16](Store username)
 
 ---?code=assets/code/aci_create_container.azcli&lang=bash&title=Create Container
 
@@ -272,9 +272,9 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---?code=assets/code/aks_create_role.azcli&lang=bash&title=Create Role
 
-@[1-4](Get cluster ID)
-@[6-10](Get Azure Container Registry ID)
-@[12-15](Create role to allow access to ACR)
+@[1-5](Get cluster ID)
+@[7-11](Get Azure Container Registry ID)
+@[13-16](Create role to allow access to ACR)
 
 ---?code=assets/code/aks_yaml_file.yaml&lang=yaml&title=AKS yaml file
 
