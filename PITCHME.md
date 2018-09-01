@@ -66,27 +66,27 @@ Container image build service<br>
 
 <img src="assets/images/ACR-SKUs.png">
 
----?code=assets/code/acr_login.azcli&lang=apache&title=ACR Login
+---?code=assets/code/acr_login.azcli&lang=bash&title=ACR Login
 
 <img src="assets/images/ACR-Login.png">
 
----?code=assets/code/acr_create_resource_group.azcli&lang=apache&title=Create Resource Group
+---?code=assets/code/acr_create_resource_group.azcli&lang=bash&title=Create Resource Group
 
 <img src="assets/images/ACR-CreateResourceGroup.png">
 
----?code=assets/code/acr_create_registry.azcli&lang=apache&title=Create Registry
+---?code=assets/code/acr_create_registry.azcli&lang=bash&title=Create Registry
 
 <img src="assets/images/ACR-CreateRegistry.png">
 
----?code=assets/code/acr_login_registry.azcli&lang=apache&title=Log into Registry
+---?code=assets/code/acr_login_registry.azcli&lang=bash&title=Log into Registry
 
 <img src="assets/images/ACR-LoginToRegistry.png">
 
----?code=assets/code/acr_get_registry_details.azcli&lang=apache&title=Get Registry Details
+---?code=assets/code/acr_get_registry_details.azcli&lang=bash&title=Get Registry Details
 
 <img src="assets/images/ACR-GetRegistryDetails.png">
 
----?code=assets/code/dockerfile&lang=apache&title=Dockerfile
+---?code=assets/code/dockerfile&lang=dockerfile&title=Dockerfile
 
 @[1](Building from microsoft image)
 @[3](Create directory within container)
@@ -95,27 +95,27 @@ Container image build service<br>
 @[12-13](Healthcheck (10 seconds))
 @[14-16](Create database from files)
 
----?code=assets/code/acr_build_image.azcli&lang=apache&title=Build Container Image
+---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
 <img src="assets/images/ACR-BuildImage.png">
 
----?code=assets/code/acr_tag_image.azcli&lang=apache&title=Tag Image
+---?code=assets/code/acr_tag_image.azcli&lang=bash&title=Tag Image
 
 <img src="assets/images/ACR-TagImage.png">
 
----?code=assets/code/acr_push_image.azcli&lang=apache&title=Push Image
+---?code=assets/code/acr_push_image.azcli&lang=bash&title=Push Image
 
 <img src="assets/images/ACR-PushImage.png">
 
----?code=assets/code/acr_list_repos.azcli&lang=apache&title=List Repositories
+---?code=assets/code/acr_list_repos.azcli&lang=bash&title=List Repositories
 
 <img src="assets/images/ACR-ListRepos.png">
 
----?code=assets/code/acr_show_tags.azli&lang=apache&title=Show Tags
+---?code=assets/code/acr_show_tags.azli&lang=bash&title=Show Tags
 
 <img src="assets/images/ACR-ShowTags.png">
 
----?code=assets/code/acr_show_manifests.azcli&lang=apache&title=Show Manifests
+---?code=assets/code/acr_show_manifests.azcli&lang=bash&title=Show Manifests
 
 <img src="assets/images/ACR-ShowManifests.png">
 
@@ -266,7 +266,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](AKS Cluster ID)
 @[4](Azure Container Registry ID)
 
----?code=assets/code/aks_yaml_file.yaml&lang=bash&title=AKS yaml file
+---?code=assets/code/aks_yaml_file.yaml&lang=yaml&title=AKS yaml file
 
 @[3-6](Metadata of deployment)
 @[8](Number of replicas)
