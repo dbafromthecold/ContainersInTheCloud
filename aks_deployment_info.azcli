@@ -1,3 +1,0 @@
-kubectl get deployments
-kubectl get pods
-Kubectl get service
