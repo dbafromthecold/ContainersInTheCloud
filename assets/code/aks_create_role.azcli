@@ -1,7 +1,8 @@
 az aks show \
 	--resource-group containers1 \
 		--name mySQLK8sCluster1 \
-			--query "servicePrincipalProfile.clientId" --output tsv
+			--query "servicePrincipalProfile.clientId" \
+				--output tsv
 
 az acr show \
 	--name TestContainerRegistry01 \
