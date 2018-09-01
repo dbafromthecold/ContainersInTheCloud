@@ -211,7 +211,7 @@ Supports mounting external volumes
 
 ### Azure Container Services
 
-<br>Two flavours</b> <br>
+<br><b>Two flavours</b> <br>
 Azure Container Services (ACS) <br>
 Azure Container Services (AKS) <br>
 <br>
@@ -226,10 +226,10 @@ AKS is specifically built to implement Kubernetes
 
 <br>
 @size[0.9em](Open source) <br>
-@size[0.9em]Deployed as a cluster) <br>
-@size[0.9em]Pods hold containers on nodes) <br>
-@size[0.9em]Services provide external access) <br>
-@size[0.9em]Kubectl used to manage cluster) <br>
+@size[0.9em](Deployed as a cluster) <br>
+@size[0.9em](Pods hold containers on nodes) <br>
+@size[0.9em](Services provide external access) <br>
+@size[0.9em](Kubectl used to manage cluster) <br>
 
 ---
 
