@@ -1,0 +1,3 @@
+kubectl get deployment
+kubectl get nodes
+kubectl get service
