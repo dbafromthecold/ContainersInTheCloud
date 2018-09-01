@@ -215,7 +215,7 @@ Two flavours <br>
 Azure Container Services (ACS) <br>
 Azure Container Services (AKS) <br>
 <br>
-ACS provides container hosting using DC/OS, Swarm, or K8s <br>
+ACS allows multiple orchestrators <br>
 AKS is specifically built to implement Kubernetes
 
 ---
@@ -225,11 +225,11 @@ AKS is specifically built to implement Kubernetes
 <img src="assets/images/AKS-KubernetesLogo.png" style="float: right"/>
 
 <br>
-@size[0.8em](Open source) <br>
-@size[0.8em](Deployed as a cluster) <br>
-@size[0.8em](Pods hold containers on nodes) <br>
-@size[0.8em](Services provide external access) <br>
-@size[0.8em](Kubectl used to manage cluster) <br>
+Open source <br>
+Deployed as a cluster <br>
+Pods hold containers on nodes <br>
+Services provide external access <br>
+Kubectl used to manage cluster <br>
 
 ---
 
