@@ -190,7 +190,7 @@ Supports mounting external volumes
 
 ---?code=assets/code/aci_get_container_status.azcli&lang=bash&title=ACI - Get Container Status
 
-<p align=center?>
+<p align=center>
 <img src="assets/images/ACI-GetContainerStatus.png">
 </p>
 
