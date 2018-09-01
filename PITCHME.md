@@ -220,13 +220,13 @@ AKS is specifically built to implement Kubernetes
 
 ### Kubernetes
 
-@size[0.6em](test text) <br>
-@size[0.6em](test text) <br>
-@size[0.6em](test text) <br>
-@size[0.6em](test text) <br>
-@size[0.6em](test text) <br>
-
 <img src="assets/images/AKS-KubernetesLogo.png" style="float: right"/>
+
+@size[0.6em](test text) <br>
+@size[0.6em](test text) <br>
+@size[0.6em](test text) <br>
+@size[0.6em](test text) <br>
+@size[0.6em](test text) <br>
 
 ---
 
