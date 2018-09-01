@@ -220,7 +220,9 @@ AKS is specifically built to implement Kubernetes
 
 ### Kubernetes
 
+<p align="right">
 ![Logo](assets/images/AKS-KubernetesLogo.png)
+</p>
 
 Open Source system for managing containers <br>
 Deployed as a cluster containing a master and multiple nodes <br>
