@@ -226,7 +226,7 @@ Pods hold containers running on the nodes <br>
 Services define/allow access to sets of pods <br>
 Deployments created and managed via Kubectl <br>
 
-<img src="assets/images/AKS-KubernetesLogo.png" style="float: right;">
+<img src="assets/images/AKS-KubernetesLogo.png" style="float: right;" size=small>
 
 ---
 
@@ -248,8 +248,59 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 <img src="assets/images/AKS-CreateCluster.png">
 
+---?code=assets/code/aks_get_details.azcli&lang=bash&title=Get ACR & Cluster Details
+
+@[1-4](Get cluster ID)
+@[6-10](Get Azure Container Registry ID)
+
+---?code=assets/code/aks_create_role.azcli&lang=bash&title=Create role to grant access
+
+@[2](AKS Cluster ID)
+@[4](Azure Container Registry ID)
+
+---?code=assets/code/aks_yaml_file.yaml&lang=bash&title=AKS yaml file
+
+---?code=assets/code/aks_deploy_to_cluster&lang=bash&title=Deploy to cluster
+
+<img src="assets/images/AKS-DeployToCluster.png">
+
+---?code=assets/code/aks_deployment_info.azcli&lang=bash&title=View deployment information
+
+@[1](View deployments)
+@[2](View nodes)
+@[3](View services)
+
+<img src="assets/images/AKS-DeploymentInformation.png">
+
 ---
 
+### Connect to SQL Server
+
+<img src="assets/images/AKS-ConnectToSqlServer.png">
+
+---
+
+### Kubernetes Dashboard
+
+<img src="assets/images/AKS-KubernetesDashboard.png">
+
+---
+
+## Demo
+
+---
+
+### Resources
+
+@size[0.6em](https://azure.microsoft.com/en-us/services/container-registry/) <br>
+<br>
+@size[0.6em](https://azure.microsoft.com/en-us/services/container-instances/) <br>
+<br>
+@size[0.6em](https://azure.microsoft.com/en-us/services/container-service/) <br>
+<br>
+@size[0.6em](https://dbafromthecold.com/2017/03/15/summary-of-my-container-series/) <br>
+<br>
+@size[0.6em](https://github.com/dbafromthecold/ContainersInTheCloud)
 
 ---
 

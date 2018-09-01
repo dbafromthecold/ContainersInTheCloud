@@ -1,0 +1,5 @@
+az role assignment create 
+	--assignee <<CLIENTID>> \
+		--role Reader \
+			--scope <<ACRID>>
+
