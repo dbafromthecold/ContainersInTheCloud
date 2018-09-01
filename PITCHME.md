@@ -228,9 +228,7 @@ AKS is specifically built to implement Kubernetes
 @size[0.6em](test text) <br>
 </p>
 
-<p align="right">
-![Logo](assets/images/AKS-KubernetesLogo.png)
-</p>
+<img src="assets/images/AKS-KubernetesLogo.png" style="float: right"/>
 
 ---
 
