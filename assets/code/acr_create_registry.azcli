@@ -1,4 +1,6 @@
-az acr create --resource-group containers1 --name TestContainerRegistry01 --sku Basic
+az acr create --resource-group containers1 \
+	--name TestContainerRegistry01 \
+		--sku Basic
 
 
 
