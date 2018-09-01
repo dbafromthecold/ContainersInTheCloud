@@ -90,10 +90,10 @@ Container image build service<br>
 
 @[1](Building from microsoft image)
 @[3](Create directory within container)
-@[5-7](Copy database files into container)
-@[9-11](Set SQL default directories)
-@[13-14](Healthcheck (10 seconds))
-@[15-16](Create database from files)
+@[5-6](Copy database files into container)
+@[8-10](Set SQL default directories)
+@[12-13](Healthcheck (10 seconds))
+@[14-15](Create database from files)
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
