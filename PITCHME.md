@@ -122,11 +122,46 @@ Container image build service<br>
 
 ### Azure Container Instances
 
-https://azure.microsoft.com/en-us/services/container-instances/
+@size[0.6em](https://azure.microsoft.com/en-us/services/container-instances/)
 
 <img src="assets/images/AzureContainerInstances.png">
 
 ---
+
+### Azure Container Instances
+
+Running containers without servers <br>
+No need to manage VMs <br>
+Quick deployment <br>
+Deployed via the CLI, powershell, or Azure Portal <br>
+Billed by the second
+
+---
+
+### Options
+
+Linux & Windows containers <br>
+Containers exposed directly to the internet <br>
+IP Address and FQDN <br>
+Hypervisor level isolation <rb>
+Persistent storage <br>
+Azure files shares
+
+---
+
+### Container Groups
+
+Similar in concept to K8s pods <br>
+Multiple containers running on the same host <br>
+Share IP address, containers exposed on ports <br>
+Supports mounting external volumes
+
+---?code=assets/code/aci_get_credentials.azcli&lang=bash&title=ACI - Get Credentials
+
+
+
+---
+
 
 <img src="assets/images/Questions.png" style="float: right;" size=medium border=none/>
 
