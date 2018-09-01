@@ -5,6 +5,7 @@ CMD mkdir /var/opt/sqlserver
 COPY DatabaseA.mdf /var/opt/sqlserver 
 COPY DatabaseA_log.ldf /var/opt/sqlserver 
 
+
 ENV MSSQL_BACKUP_DIR="/var/opt/sqlserver" 
 ENV MSSQL_DATA_DIR="/var/opt/sqlserver" 
 ENV MSSQL_LOG_DIR="/var/opt/sqlserver"
