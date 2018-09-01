@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server-linux:latest
+FROM microsoft/mssql-server-linux:latest 
 
 CMD mkdir /var/opt/sqlserver
 
