@@ -270,15 +270,11 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 <img src="assets/images/AKS-ViewNodes.png">
 
----?code=assets/code/aks_get_details.azcli&lang=bash&title=Get Cluster and ACR Details
+---?code=assets/code/aks_create_role.azcli&lang=bash&title=Create Role
 
 @[1-4](Get cluster ID)
 @[6-10](Get Azure Container Registry ID)
-
----?code=assets/code/aks_create_role.azcli&lang=bash&title=Create Role
-
-@[2](AKS Cluster ID)
-@[4](Azure Container Registry ID)
+@[12-15](Create role to allow access to ACR)
 
 ---?code=assets/code/aks_yaml_file.yaml&lang=yaml&title=AKS yaml file
 
