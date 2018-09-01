@@ -33,7 +33,7 @@ Azure Container Services
 
 ### Azure Container Registry
 
-@size[0.6em](https://azure.microsoft.com/en-us/services/container-registry/)
+@size[0.8em](https://azure.microsoft.com/en-us/services/container-registry/)
 
 <img src="assets/images/AzureContainerRegistry.png">
 
@@ -63,6 +63,8 @@ Container image build service<br>
 ---
 
 ### SKUs
+
+<img src="assets/images/ACR-SKUs.png">
 
 ---?code=assets/code/acr_login.azcli&lang=bash&title=ACR Login
 
@@ -122,7 +124,7 @@ Container image build service<br>
 
 ### Azure Container Instances
 
-@size[0.6em](https://azure.microsoft.com/en-us/services/container-instances/)
+@size[0.8em](https://azure.microsoft.com/en-us/services/container-instances/)
 
 <img src="assets/images/AzureContainerInstances.png">
 
@@ -201,7 +203,7 @@ Supports mounting external volumes
 
 ### Azure Container Services
 
-@size[0.6em](https://azure.microsoft.com/en-us/services/container-service/)
+@size[0.8em](https://azure.microsoft.com/en-us/services/container-service/)
 
 <img src="assets/images/AzureContainerServices.png">
 
