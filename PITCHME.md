@@ -66,7 +66,7 @@ Container image build service<br>
 
 <img src="assets/images/ACR-SKUs.png">
 
----?code=assets/code/acr_login.azcli&lang=bash&title=ACR Login
+---?code=assets/code/acr_login.azcli&lang=bash&title=Login to Azure Account
 
 <img src="assets/images/ACR-Login.png">
 
@@ -165,18 +165,18 @@ Multiple containers running on the same host <br>
 Share IP address, containers exposed on ports <br>
 Supports mounting external volumes
 
----?code=assets/code/aci_get_credentials.azcli&lang=bash&title=ACI - Get Credentials
+---?code=assets/code/aci_get_credentials.azcli&lang=bash&title=Get Credentials
 
 @[1](Enable admin)
 @[3](Show credentials)
 
----?code=assets/code/aci_create_keyvault.azcli&lang=bash&title=ACI - Create Keyvault
+---?code=assets/code/aci_create_keyvault.azcli&lang=bash&title=Create Keyvault
 
 @[1](Create keyvault)
 @[3-9](Create service principle and store password)
 @[11-15](Store username)
 
----?code=assets/code/aci_create_container.azcli&lang=bash&title=ACI - Create Container
+---?code=assets/code/aci_create_container.azcli&lang=bash&title=Create Container
 
 @[2](From custom image)
 @[3](Specifying the resource group)
@@ -188,7 +188,7 @@ Supports mounting external volumes
 @[15](Specifying the IP address type)
 @[16](Specifying the port to connect to)
 
----?code=assets/code/aci_get_container_status.azcli&lang=bash&title=ACI - Get Container Status
+---?code=assets/code/aci_get_container_status.azcli&lang=bash&title=Get Container Status
 
 <p align=center>
 <img src="assets/images/ACI-GetContainerStatus.png">
@@ -275,7 +275,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[1-4](Get cluster ID)
 @[6-10](Get Azure Container Registry ID)
 
----?code=assets/code/aks_create_role.azcli&lang=bash&title=Create role to grant access
+---?code=assets/code/aks_create_role.azcli&lang=bash&title=Create Role
 
 @[2](AKS Cluster ID)
 @[4](Azure Container Registry ID)
@@ -295,11 +295,11 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[33-35](Selector)
 @[35](External IP address)
 
----?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to cluster
+---?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to Cluster
 
 <img src="assets/images/AKS-DeployToCluster.png">
 
----?code=assets/code/aks_deployment_info.azcli&lang=bash&title=View deployment information
+---?code=assets/code/aks_deployment_info.azcli&lang=bash&title=View Deployment
 
 @[1](View deployments)
 @[2](View nodes)
