@@ -1,0 +1,6 @@
+az aks create \
+	-resource-group containers1 \
+		--name mySQLK8sCluster1 \
+			--node-count 2 \
+				--generate-ssh-keys
+

@@ -207,6 +207,52 @@ Supports mounting external volumes
 
 ---
 
+### Azure Container Services
+
+Two flavours <br>
+Azure Container Services (ACS) <br>
+Azure Container Services (AKS) <br>
+<br>
+ACS provides container hosting using DC/OS, Swarm, or K8s <br>
+AKS is specifically built to implement Kubernetes
+
+---
+
+### Kubernetes
+
+Open Source system for managing containers <br>
+Deployed as a cluster containing a master and multiple nodes <br>
+Pods hold containers running on the nodes <br>
+Services define/allow access to sets of pods <br>
+Deployments created and managed via Kubectl <br>
+
+<img src="assets/images/AKS-KubernetesLogo.png" style="float: right;">
+
+---
+
+### Azure Container Services (AKS)
+
+Simplifies deployment of Kubernetes clusters in Azure <br>
+Cluster can be spun up with one line of code <br>
+Applications deployed to cluster via yaml files <br>
+Managed by Azure-CLI/powershell and kubectl <br>
+
+---
+
+---?code=assets/code/aks_create_cluster.azcli&lang=bash&title=Create Cluster
+
+@[2](Specify the resource group)
+@[3](Give the cluster a name)
+@[4](Specify the number of nodes)
+@[5](Generate keys so that we can connect)
+
+<img src="assets/images/AKS-CreateCluster.png">
+
+---
+
+
+---
+
 <img src="assets/images/Questions.png" style="float: right;" size=medium border=none/>
 
 </br>
