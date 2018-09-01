@@ -327,11 +327,11 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ### Resources
 
-@size[0.6em](https://azure.microsoft.com/en-us/services/container-registry/) <br>
-@size[0.6em](https://azure.microsoft.com/en-us/services/container-instances/) <br>
-@size[0.6em](https://azure.microsoft.com/en-us/services/container-service/) <br>
-@size[0.6em](https://dbafromthecold.com/2017/03/15/summary-of-my-container-series/) <br>
-@size[0.6em](https://github.com/dbafromthecold/ContainersInTheCloud)
+@size[0.8em](https://azure.microsoft.com/en-us/services/container-registry/) <br>
+@size[0.8em](https://azure.microsoft.com/en-us/services/container-instances/) <br>
+@size[0.8em](https://azure.microsoft.com/en-us/services/container-service/) <br>
+@size[0.8em](https://dbafromthecold.com/2017/03/15/summary-of-my-container-series/) <br>
+@size[0.8em](https://github.com/dbafromthecold/ContainersInTheCloud)
 
 ---
 
@@ -342,5 +342,3 @@ Managed by Azure-CLI/powershell and kubectl <br>
 </br>
 </br>
 ### Questions?
-
-
