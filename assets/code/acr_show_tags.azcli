@@ -1,1 +1,0 @@
-az acr repository show-tags --name testcontainerregistry01 --repository devsqlimage
