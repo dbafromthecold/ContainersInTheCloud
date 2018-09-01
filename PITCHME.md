@@ -88,6 +88,13 @@ Container image build service<br>
 
 ---?code=assets/code/dockerfile&lang=bash&title=Dockerfile
 
+@[1](Building from microsoft image)
+@[3](Create directory within container)
+@[5-7](Copy database files into container)
+@[9-11](Set SQL default directories)
+@[13-14](Healthcheck (10 seconds))
+@[15-16](Create database from files)
+
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
 <img src="assets/images/ACR-BuildImage.png">
