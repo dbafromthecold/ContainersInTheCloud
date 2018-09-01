@@ -86,7 +86,7 @@ Container image build service<br>
 
 <img src="assets/images/ACR-GetRegistryDetails.png">
 
----?code=assets/code/dockerfile&lang=dockerfile&title=Dockerfile
+---?code=assets/code/dockerfile&lang=Dockerfile&title=Dockerfile
 
 @[1](Building from microsoft image)
 @[3](Create directory within container)
