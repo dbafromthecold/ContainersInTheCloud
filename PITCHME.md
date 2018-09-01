@@ -223,7 +223,6 @@ AKS is specifically built to implement Kubernetes
 <img src="assets/images/AKS-KubernetesLogo.png" style="float: right"/>
 
 <br>
-<br>
 @size[0.8em](Open source) <br>
 @size[0.8em](Deployed as a cluster) <br>
 @size[0.8em](Pods hold containers on nodes) <br>
