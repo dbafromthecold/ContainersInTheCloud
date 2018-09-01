@@ -259,18 +259,18 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---?code=assets/code/aks_yaml_file.yaml&lang=bash&title=AKS yaml file
 
-@code[3-6](Metadata of deployment)
-@code[8](Number of replicas)
-@code[13-23](Pod declaration)
-@code[15](Pod name)
-@code[16](Image to be used)
-@code[17-18](Port on pod)
-@code[19-23](Setting environment variables)
-@code[24-35](Service)
-@code[26-27](Metadata)
-@code[29-32](Port on service to port on pod)
-@code[33-35](Selector)
-@code[35](External IP address)
+@[3-6](Metadata of deployment)
+@[8](Number of replicas)
+@[13-23](Pod declaration)
+@[15](Pod name)
+@[16](Image to be used)
+@[17-18](Port on pod)
+@[19-23](Setting environment variables)
+@[24-35](Service)
+@[26-27](Metadata)
+@[29-32](Port on service to port on pod)
+@[33-35](Selector)
+@[35](External IP address)
 
 ---?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to cluster
 
