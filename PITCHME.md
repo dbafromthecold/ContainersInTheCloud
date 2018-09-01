@@ -170,7 +170,7 @@ Supports mounting external volumes
 ---?code=assets/code/aci_create_container.azcli&lang=bash&title=ACI - Create Container
 
 @[3](From custom image)
-@4-7](Retrieving the username stored in keyvault)
+@[4-7](Retrieving the username stored in keyvault)
 @[8-11](Retrieving the password stored in keyvault)
 @[12](Setting the container name)
 @[13](Specifying resources available to container)
