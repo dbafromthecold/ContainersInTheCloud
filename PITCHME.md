@@ -232,12 +232,10 @@ Deployments created and managed via Kubectl <br>
 
 ### Azure Container Services (AKS)
 
-Simplifies deployment of Kubernetes clusters in Azure <br>
+Simplifies deployment of Kubernetes clusters <br>
 Cluster can be spun up with one line of code <br>
 Applications deployed to cluster via yaml files <br>
 Managed by Azure-CLI/powershell and kubectl <br>
-
----
 
 ---?code=assets/code/aks_create_cluster.azcli&lang=bash&title=Create Cluster
 
@@ -248,7 +246,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 <img src="assets/images/AKS-CreateCluster.png">
 
----?code=assets/code/aks_get_details.azcli&lang=bash&title=Get ACR & Cluster Details
+---?code=assets/code/aks_get_details.azcli&lang=bash&title=Get Cluster and ACR Details
 
 @[1-4](Get cluster ID)
 @[6-10](Get Azure Container Registry ID)
