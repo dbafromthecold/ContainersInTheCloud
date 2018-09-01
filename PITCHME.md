@@ -167,8 +167,18 @@ Supports mounting external volumes
 @[3-9](Create service principle and store password)
 @[11-15](Store username)
 
---
+---?code=assets/code/aci_create_container.azcli&lang=bash&title=ACI - Create Container
 
+@[3](From custom image)
+@4-7](Retrieving the username stored in keyvault)
+@[8-11](Retrieving the password stored in keyvault)
+@[12](Setting the container name)
+@[13](Specifying resources available to container)
+@[14](Setting the required environment variables)
+@[15](Specifying the IP address type)
+@[16](Specifying the port to connect to)
+
+---
 
 <img src="assets/images/Questions.png" style="float: right;" size=medium border=none/>
 
