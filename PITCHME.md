@@ -216,17 +216,13 @@ Azure Container Services (AKS) <br>
 ACS provides container hosting using DC/OS, Swarm, or K8s <br>
 AKS is specifically built to implement Kubernetes
 
----
-
-### Kubernetes
+---?image=assets/images/AKS-KubernetesLogo.png
 
 Open Source system for managing containers <br>
 Deployed as a cluster containing a master and multiple nodes <br>
 Pods hold containers running on the nodes <br>
 Services define/allow access to sets of pods <br>
 Deployments created and managed via Kubectl <br>
-
-<img src="assets/images/AKS-KubernetesLogo.png" style="float: right;" size=small>
 
 ---
 
