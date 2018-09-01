@@ -66,7 +66,7 @@ Container image build service<br>
 
 <img src="assets/images/ACR-SKUs.png">
 
----?code=assets/code/acr_login.azcli&lang=bash&title=ACR Login
+---?code=assets/code/acr_login.azcli&lang=powershell&title=ACR Login
 
 <img src="assets/images/ACR-Login.png">
 
