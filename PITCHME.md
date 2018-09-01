@@ -260,7 +260,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---?code=assets/code/aks_yaml_file.yaml&lang=bash&title=AKS yaml file
 
----?code=assets/code/aks_deploy_to_cluster&lang=bash&title=Deploy to cluster
+---?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to cluster
 
 <img src="assets/images/AKS-DeployToCluster.png">
 
@@ -293,13 +293,9 @@ Managed by Azure-CLI/powershell and kubectl <br>
 ### Resources
 
 @size[0.6em](https://azure.microsoft.com/en-us/services/container-registry/) <br>
-<br>
 @size[0.6em](https://azure.microsoft.com/en-us/services/container-instances/) <br>
-<br>
 @size[0.6em](https://azure.microsoft.com/en-us/services/container-service/) <br>
-<br>
 @size[0.6em](https://dbafromthecold.com/2017/03/15/summary-of-my-container-series/) <br>
-<br>
 @size[0.6em](https://github.com/dbafromthecold/ContainersInTheCloud)
 
 ---
