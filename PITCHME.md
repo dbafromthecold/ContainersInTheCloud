@@ -170,6 +170,7 @@ Supports mounting external volumes
 ---?code=assets/code/aci_create_container.azcli&lang=bash&title=ACI - Create Container
 
 @[3](From custom image)
+@[3](Specifying the resource group)
 @[4-7](Retrieving the username stored in keyvault)
 @[8-11](Retrieving the password stored in keyvault)
 @[12](Setting the container name)
@@ -177,6 +178,32 @@ Supports mounting external volumes
 @[14](Setting the required environment variables)
 @[15](Specifying the IP address type)
 @[16](Specifying the port to connect to)
+
+---?code=assets/code/aci_get_container_status.azcli&lang=bash&ACI - Get Container Status
+
+<img src="assets/images/ACI-GetContainerStatus.png">
+
+---
+
+### Connect to Azure Container Instance
+
+<img src-"assets/images/ACI-ConnectToContainer.png"
+
+---
+
+## Demo
+
+---
+
+## Azure Container Services
+
+---
+
+### Azure Container Services
+
+@size[0.6em](https://azure.microsoft.com/en-us/services/container-service/)
+
+<img src="assets/images/AzureContainerServices.png">
 
 ---
 
