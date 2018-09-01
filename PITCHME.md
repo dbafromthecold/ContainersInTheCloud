@@ -120,6 +120,14 @@ Container image build service<br>
 
 ---
 
+### Azure Container Instances
+
+https://azure.microsoft.com/en-us/services/container-instances/
+
+<img src="assets/images/AzureContainerInstances.png">
+
+---
+
 <img src="assets/images/Questions.png" style="float: right;" size=medium border=none/>
 
 </br>
