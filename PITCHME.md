@@ -161,7 +161,13 @@ Supports mounting external volumes
 @[1](Enable admin)
 @[3](Show credentials)
 
----
+---?code=assets/code/aci_create_keyvault.azcli&lang=bash&title=ACI - Create Keyvault
+
+@[1](Create keyvault)
+@[3-9](Create service principle and store password)
+@[11-15](Store username)
+
+--
 
 
 <img src="assets/images/Questions.png" style="float: right;" size=medium border=none/>
