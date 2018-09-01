@@ -158,7 +158,8 @@ Supports mounting external volumes
 
 ---?code=assets/code/aci_get_credentials.azcli&lang=bash&title=ACI - Get Credentials
 
-
+@[1](Enable admin)
+@[3](Show credentials)
 
 ---
 
