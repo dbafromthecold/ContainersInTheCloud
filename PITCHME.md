@@ -13,6 +13,12 @@
 
 ---
 
+### Sponsors
+
+<img src="assets/images/SQLGLA/SQLGLA_Sponsors.png">
+
+---
+
 ### Session Aim
 
 To give an overview of the different options available to run SQL Server Docker containers in Azure
