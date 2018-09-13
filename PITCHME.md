@@ -15,7 +15,7 @@
 
 ### Sponsors
 
-<img src="assets/images/SQLGLA/SQLGLA_Sponsors.png">
+<img src="assets/images/SQLGLA/SQLGLA_Sponsor_Slide.png">
 
 ---
 
