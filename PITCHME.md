@@ -331,10 +331,10 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---
 
-<img src="assets/images/Questions.png" style="float: right;" size=medium border=none/>
+@snap[west]
+![QUESTIONS](assets/images/Questions.png)
+@snapend
 
-</br>
-</br>
-</br>
-</br>
-### Questions?
+@snap[east]
+Questions?
+@snapend
