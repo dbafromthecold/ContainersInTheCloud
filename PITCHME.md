@@ -331,10 +331,10 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---
 
-@snap[west]
+@snap[east]
 ![QUESTIONS](assets/images/Questions.png)
 @snapend
 
-@snap[east]
+@snap[west]
 Questions?
 @snapend
