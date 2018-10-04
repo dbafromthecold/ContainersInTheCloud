@@ -333,7 +333,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 https://github.com/dbafromthecold/ContainersInTheCloud
 
-@snap[midpoint]
+@snap[east]
 ![QR](assets/images/ContainersInTheCloudQr.png)
 @snapend
 
