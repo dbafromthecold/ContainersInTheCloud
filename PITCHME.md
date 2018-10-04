@@ -331,7 +331,11 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ### Resources
 
-<img src="assets/images/ContainersInTheCloudQr.png">
+https://github.com/dbafromthecold/ContainersInTheCloud
+
+@snap[midpoint]
+![QR](assets/images/ContainersInTheCloudQr.png)
+@snapend
 
 ---
 
