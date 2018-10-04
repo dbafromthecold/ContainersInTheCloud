@@ -2,6 +2,18 @@
 
 ---
 
+## Sponsors
+
+<img src="assets/images/SqlSatDenmark/SqlSatDenmarkSponsors.png">
+
+---
+
+## Raffle and beer!
+
+<img src="assets/images/SqlSatDenmark/SqlSatDenmarkInfo.png">
+
+---
+
 ## Andrew Pruski
 
 ### SQL Server DBA & Microsoft Data Platform MVP
