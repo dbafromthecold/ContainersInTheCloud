@@ -2,13 +2,9 @@
 
 ---
 
-## Sponsors
-
 <img src="assets/images/SqlSatDenmark/SqlSatDenmarkSponsors.PNG">
 
 ---
-
-## Raffle and beer!
 
 <img src="assets/images/SqlSatDenmark/SqlSatDenmarkInfo.PNG">
 
