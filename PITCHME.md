@@ -12,6 +12,10 @@
 
 ## Andrew Pruski
 
+@snap[east]
+![QUESTIONS](assets/images/apruski.gif)
+@snapend
+
 ### SQL Server DBA & Microsoft Data Platform MVP
 
 @fa[twitter] @dbafromthecold <br>
