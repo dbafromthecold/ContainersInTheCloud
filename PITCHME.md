@@ -1,12 +1,4 @@
-# SQL Containers in Azure
-
----
-
-<img src="assets/images/SqlSatDenmark/SqlSatDenmarkSponsors.PNG">
-
----
-
-<img src="assets/images/SqlSatDenmark/SqlSatDenmarkInfo.PNG">
+# SQL Containers in the Cloud
 
 ---
 
