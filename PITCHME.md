@@ -336,5 +336,3 @@ https://github.com/dbafromthecold/ContainersInTheCloud
 ---
 
 <img src="assets/images/sqlrelay/sqlrelayfeedback.png">
-
----
