@@ -335,16 +335,6 @@ https://github.com/dbafromthecold/ContainersInTheCloud
 
 ---
 
-@snap[east]
-![QUESTIONS](assets/images/Questions.png)
-@snapend
-
-@snap[west]
-Questions?
-@snapend
-
----
-
 <img src="assets/images/sqlrelay/sqlrelayfeedback.png">
 
 ---
