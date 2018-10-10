@@ -2,6 +2,10 @@
 
 ---
 
+<img src="assets/images/sqlrelay/sqlrelaysponsors.png">
+
+---
+
 ## Andrew Pruski
 
 ### SQL Server DBA & Microsoft Data Platform MVP
@@ -338,3 +342,9 @@ https://github.com/dbafromthecold/ContainersInTheCloud
 @snap[west]
 Questions?
 @snapend
+
+---
+
+<img src="assets/images/sqlrelay/sqlrelayfeedback.png">
+
+---
