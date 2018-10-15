@@ -332,3 +332,11 @@ https://github.com/dbafromthecold/ContainersInTheCloud
 @snap[east]
 ![QR](assets/images/ContainersInTheCloudQr.png)
 @snapend
+
+---
+
+### Feedback
+
+@snap[east]
+![QR](assets/images/DataMinds/DataMinds_QR.png)
+@snapend
