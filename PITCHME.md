@@ -1,4 +1,4 @@
-# SQL Containers in the Cloud
+# SQL Server Containers in Azure
 
 ---
 
