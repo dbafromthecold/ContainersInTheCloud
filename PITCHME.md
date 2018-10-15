@@ -61,7 +61,7 @@ All images encrypted at rest<br>
 Replication of images<br>
 <b>Geo-replication</b><br>
 Guards against total regional failure<br>
-<b>ACR Build</b><br>
+<b>ACR Tasks</b><br>
 Container image build service<br>
 
 ---
