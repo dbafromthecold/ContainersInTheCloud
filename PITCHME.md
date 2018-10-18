@@ -2,10 +2,6 @@
 
 ---
 
-<img src="assets/images/DataMinds/DataMinds_Sponsors.png">
-
----
-
 ## Andrew Pruski
 
 ### SQL Server DBA & Microsoft Data Platform MVP
