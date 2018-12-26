@@ -91,13 +91,14 @@ Container image build service<br>
 @[1](Building from microsoft image)
 @[3](Create directory within container)
 @[5-6](Copy database files into container)
-@[8-10](Set SQL default directories)
-@[12-13](Healthcheck (10 seconds))
-@[14-16](Create database from files)
+@[8](Copy script to attach database into container)
+@[10-12](Set SQL default directories)
+@[14](Make script executable)
+@[16](Run script to attach database)
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
-<img src="assets/images/ACR-BuildImage.png">
+<img src="assets/images/ACR-BuildImage2.png">
 
 ---?code=assets/code/acr_tag_image.azcli&lang=bash&title=Tag Image
 
