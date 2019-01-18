@@ -1,4 +1,8 @@
-# SQL Server Containers in Azure
+# Azure SQL Containers
+
+---
+
+<img src="assets/images/SQLSatLinz.png">
 
 ---
 
