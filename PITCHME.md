@@ -2,10 +2,6 @@
 
 ---
 
-<img src="assets/images/SQLSatLinz.png">
-
----
-
 ## Andrew Pruski
 
 ### SQL Server DBA & Microsoft Data Platform MVP
@@ -223,7 +219,7 @@ Supports mounting external volumes
 
 <br><b>Two flavours</b> <br>
 Azure Container Services (ACS) <br>
-Azure Container Services (AKS) <br>
+Azure Kubernetes Services (AKS) <br>
 <br>
 ACS allows multiple orchestrators <br>
 AKS is specifically built to implement Kubernetes
