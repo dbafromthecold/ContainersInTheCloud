@@ -300,7 +300,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](View nodes)
 @[3](View services)
 
-<img src="assets/images/AKS-DeploymentInformation2019-2.png">
+<img src="assets/images/AKS-DeploymentInformation2019-1.png">
 
 ---
 
