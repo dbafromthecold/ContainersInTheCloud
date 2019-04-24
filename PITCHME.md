@@ -195,7 +195,9 @@ Supports mounting external volumes
 
 ### Connect to Azure Container Instance
 
+<p align=center>
 <img src="assets/images/ACI-ConnectToContainer2019CTP2.4.png">
+</p>
 
 ---
 
