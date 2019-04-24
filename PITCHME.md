@@ -98,7 +98,7 @@ Container image build service<br>
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
-<img src="assets/images/ACR-BuildImage.png">
+<img src="assets/images/ACR-BuildImage2019CTP2.4.png">
 
 ---?code=assets/code/acr_tag_image.azcli&lang=bash&title=Tag Image
 
