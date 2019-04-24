@@ -255,7 +255,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[4](Specify the number of nodes)
 @[5](Generate ssh keys if missing)
 
-<img src="assets/images/AKS-CreateCluster.png">
+<img src="assets/images/AKS-CreateCluster2019.png">
 
 ---?code=assets/code/aks_install_kubectl.azcli&lang=bash&title=Install Kubectl
 
@@ -263,7 +263,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---?code=assets/code/aks_get_cluster_credentials.azcli&lang=bash&title=Get Cluster Credentials
 
-<img src="assets/images/AKS-GetClusterCredentials.png">
+<img src="assets/images/AKS-GetClusterCredentials2019.png">
 
 ---?code=assets/code/aks_view_cluster_nodes.azcli&lang=bash&title=View Cluster Nodes
 
@@ -300,13 +300,13 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](View nodes)
 @[3](View services)
 
-<img src="assets/images/AKS-DeploymentInformation.png">
+<img src="assets/images/AKS-DeploymentInformation2019.png">
 
 ---
 
 ### Connect to SQL Server
 
-<img src="assets/images/AKS-ConnectToSqlServer.png">
+<img src="assets/images/AKS-ConnectToSqlServer2019.png">
 
 ---
 
