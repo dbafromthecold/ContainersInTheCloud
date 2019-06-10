@@ -98,7 +98,7 @@ Container image build service<br>
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
-<img src="assets/images/ACR-BuildImage2019CTP3.0.png">
+<img src="assets/images/ACR-BuildImage2019CTP3.0_rsz.png">
 
 ---?code=assets/code/acr_tag_image.azcli&lang=bash&title=Tag Image
 
@@ -188,7 +188,7 @@ Supports mounting external volumes
 ---?code=assets/code/aci_get_container_status.azcli&lang=bash&title=Get Container Status
 
 <p align=center>
-<img src="assets/images/ACI-GetContainerStatus2019CTP3.0.png">
+<img src="assets/images/ACI-GetContainerStatus2019CTP3.0_rsz.png">
 </p>
 
 ---
