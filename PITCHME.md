@@ -300,13 +300,13 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](View nodes)
 @[3](View services)
 
-<img src="assets/images/AKS-DeploymentInformation2019CTP2.4.png">
+<img src="assets/images/AKS-DeploymentInformation2019CTP3.0.png">
 
 ---
 
 ### Connect to SQL Server
 
-<img src="assets/images/AKS-ConnectToSqlServer2019.png">
+<img src="assets/images/AKS-ConnectToSqlServer2019CTP3.0.png">
 
 ---
 
