@@ -188,7 +188,7 @@ Supports mounting external volumes
 ---?code=assets/code/aci_get_container_status.azcli&lang=bash&title=Get Container Status
 
 <p align=center>
-<img src="assets/images/ACI-ConnectToContainer2019CTP2.4.png.png">
+<img src="assets/images/ACI-GetContainerStatus2019CTP3.0.png">
 </p>
 
 ---
@@ -196,7 +196,7 @@ Supports mounting external volumes
 ### Connect to Azure Container Instance
 
 <p align=center>
-<img src="assets/images/ACI-ConnectToContainer2019CTP2.4.png">
+<img src="assets/images/ACI-ConnectToContainer2019CTP3.0.png">
 </p>
 
 ---
