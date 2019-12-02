@@ -89,12 +89,14 @@ Container image build service<br>
 ---?code=assets/code/dockerfile&lang=bash&title=Dockerfile
 
 @[1](Building from microsoft image)
-@[3](Create directory within container)
-@[5-6](Copy database files into container)
-@[8](Copy script to attach database into container)
-@[10-12](Set SQL default directories)
-@[14](Make script executable)
-@[16](Run script to attach database)
+@[3](Switching to the root user)
+@[5](Creating a new directory)
+@[7-8](Copying database files to the new directory)
+@[10](Copy script to attach database into container)
+@[11](Make script executable)
+@[13](Switch to the mssql user)
+@[15-17](Set SQL default directories)
+@[19](Run script to attach database)
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 

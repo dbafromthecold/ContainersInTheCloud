@@ -1,16 +1,19 @@
-FROM mcr.microsoft.com/mssql/server:2019-CTP3.0-ubuntu
+FROM mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04
+
+USER root
 
 RUN mkdir /var/opt/sqlserver
 
-COPY DatabaseA.mdf /var/opt/sqlserver
-COPY DatabaseA_log.ldf /var/opt/sqlserver
+COPY DatabaseC.mdf /var/opt/sqlserver
+COPY DatabaseC_log.ldf /var/opt/sqlserver
 
 COPY attach-db.sh /var/opt/sqlserver
+RUN chmod +x /var/opt/sqlserver/attach-db.sh
+
+USER mssql
 
 ENV MSSQL_BACKUP_DIR="/var/opt/sqlserver"
 ENV MSSQL_DATA_DIR="/var/opt/sqlserver"
 ENV MSSQL_LOG_DIR="/var/opt/sqlserver"
-
-RUN chmod +x /var/opt/sqlserver/attach-db.sh
 
 ENTRYPOINT /var/opt/sqlserver/attach-db.sh & /opt/mssql/bin/sqlservr
