@@ -1,1 +1,1 @@
-az acr list --resource-group containers1
+az acr list -g containers1 -o table

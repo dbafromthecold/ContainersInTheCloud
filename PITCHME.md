@@ -68,7 +68,7 @@ Container image build service<br>
 
 ---?code=assets/code/acr_login.azcli&lang=bash&title=Login to Azure Account
 
-<img src="assets/images/ACR-Login.png">
+<img src="assets/images/azure_portal_login.png">
 
 ---?code=assets/code/acr_create_resource_group.azcli&lang=bash&title=Create Resource Group
 
@@ -76,15 +76,15 @@ Container image build service<br>
 
 ---?code=assets/code/acr_create_registry.azcli&lang=bash&title=Create Registry
 
-<img src="assets/images/ACR-CreateRegistry.png">
+<img src="assets/images/acr-create-registry.png">
 
 ---?code=assets/code/acr_login_registry.azcli&lang=bash&title=Log into Registry
 
-<img src="assets/images/ACR-LoginToRegistry.png">
+<img src="assets/images/acr-log-into-registry.png">
 
 ---?code=assets/code/acr_get_registry_details.azcli&lang=bash&title=Get Registry Details
 
-<img src="assets/images/ACR-GetRegistryDetails.png">
+<img src="assets/images/acr-list-registries.png">
 
 ---?code=assets/code/dockerfile&lang=bash&title=Dockerfile
 

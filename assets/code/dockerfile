@@ -4,8 +4,8 @@ USER root
 
 RUN mkdir /var/opt/sqlserver
 
-COPY DatabaseC.mdf /var/opt/sqlserver
-COPY DatabaseC_log.ldf /var/opt/sqlserver
+COPY TestDatabase.mdf /var/opt/sqlserver
+COPY TestDatabase_Log.ldf /var/opt/sqlserver
 
 COPY attach-db.sh /var/opt/sqlserver
 RUN chmod +x /var/opt/sqlserver/attach-db.sh
