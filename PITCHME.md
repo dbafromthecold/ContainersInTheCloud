@@ -68,23 +68,23 @@ Container image build service<br>
 
 ---?code=assets/code/acr_login.azcli&lang=bash&title=Login to Azure Account
 
-<img src="assets/images/azure_portal_login.png">
+<img src="assets/images/azure_portal_login.PNG">
 
 ---?code=assets/code/acr_create_resource_group.azcli&lang=bash&title=Create Resource Group
 
-<img src="assets/images/ACR-CreateResourceGroup.png">
+<img src="assets/images/ACR-CreateResourceGroup.PNG">
 
 ---?code=assets/code/acr_create_registry.azcli&lang=bash&title=Create Registry
 
-<img src="assets/images/acr-create-registry.png">
+<img src="assets/images/acr-create-registry.PNG">
 
 ---?code=assets/code/acr_login_registry.azcli&lang=bash&title=Log into Registry
 
-<img src="assets/images/acr-log-into-registry.png">
+<img src="assets/images/acr-log-into-registry.PNG">
 
 ---?code=assets/code/acr_get_registry_details.azcli&lang=bash&title=Get Registry Details
 
-<img src="assets/images/acr-list-registries.png">
+<img src="assets/images/acr-list-registries.PNG">
 
 ---?code=assets/code/dockerfile&lang=bash&title=Dockerfile
 
@@ -100,23 +100,23 @@ Container image build service<br>
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
-<img src="assets/images/docker-build-image.png">
+<img src="assets/images/docker-build-image.PNG">
 
 ---?code=assets/code/acr_tag_image.azcli&lang=bash&title=Tag Image
 
-<img src="assets/images/acr-tag-image.png">
+<img src="assets/images/acr-tag-image.PNG">
 
 ---?code=assets/code/acr_push_image.azcli&lang=bash&title=Push Image
 
-<img src="assets/images/acr-push-image.png">
+<img src="assets/images/acr-push-image.PNG">
 
 ---?code=assets/code/acr_list_repos.azcli&lang=bash&title=List Repositories
 
-<img src="assets/images/acr-list-repository.png">
+<img src="assets/images/acr-list-repository.PNG">
 
 ---?code=assets/code/acr_show_tags.azcli&lang=bash&title=Show Tags
 
-<img src="assets/images/acr-show-tags.png">
+<img src="assets/images/acr-show-tags.PNG">
 
 ---
 
