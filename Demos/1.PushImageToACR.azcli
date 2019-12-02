@@ -1,0 +1,83 @@
+
+# show images in repo
+GET https://mcr.microsoft.com/v2/mssql/server/tags/list
+
+
+
+# check azure-cli is installed
+az --version
+
+
+
+# log in to azure
+az login
+
+
+
+# log into registry
+az acr login --name apregistry
+
+
+
+# find fully qualified name of registry login server
+az acr list --resource-group containers1 --query "[].{acrLoginServer:loginServer}" --output table
+
+
+
+# list local docker images
+docker images
+
+
+
+# build image
+docker build -t testimage /home/dbafromthecold/git/ContainersInTheCloud/Code
+
+
+
+# check images
+docker images
+
+
+
+# run container locally to confirm
+docker run -d -p 15789:1433 \
+--env ACCEPT_EULA=Y \
+--env SA_PASSWORD=Testing1122 \
+--name testcontainer testimage
+
+
+# confirm container running
+docker ps -a
+
+
+
+# tag local image with ACR name
+docker tag testimage apregistry.azurecr.io/devsqlimage:v4
+
+
+
+# verify image
+docker images
+
+
+
+# push image to registry
+docker push apregistry.azurecr.io/devsqlimage:v4
+
+
+
+# list repositories in registry
+az acr repository list --name apregistry --output table
+
+
+
+# show tags in repository
+az acr repository show-tags --name apregistry --repository devsqlimage
+
+
+
+#clean up local
+docker kill testcontainer
+docker rm testcontainer
+docker rmi apregistry.azurecr.io/devsqlimage:v4 testimage
+

@@ -1,0 +1,81 @@
+# https://dbafromthecold.com/2017/11/15/running-sql-server-in-kubernetes-on-azure-container-services-aks-ii/
+
+
+
+# check azure-cli is installed
+az --version
+
+
+
+# log in to azure
+az login
+
+
+
+# create a resource group for all objects
+az group create --name containers1 --location eastus
+
+
+
+# create kubernetes cluster (with 2 nodes)
+az aks create --resource-group containers1 --name SQLK8sCluster1 --node-count 2 --generate-ssh-keys
+
+
+
+# install kubectl
+az aks install-cli
+
+
+
+# get credentials to connect to cluster
+az aks get-credentials --resource-group containers1 --name SQLK8sCluster1
+
+
+
+# confirm connection to cluster by viewing nodes
+kubectl get nodes
+
+
+
+# Get client ID of cluster
+K8sID=$(az aks show --resource-group containers1 --name SQLK8sCluster1 --query "servicePrincipalProfile.clientId" --output tsv)
+
+
+
+# Get ACR ID
+AcrID=$(az acr show --name apregistry --resource-group containers1 --query "id" --output tsv)
+
+
+
+# Create role to allow deployments
+az role assignment create --assignee $K8sID --role Reader --scope $AcrID
+
+
+
+# deploy to cluster
+kubectl apply -f sqlserver.yml
+
+
+
+# view deployment
+kubectl get deployments
+
+
+
+# view pods
+kubectl get pods
+
+
+
+# view service
+kubectl get service
+
+
+
+# view dashboard
+az aks browse --resource-group containers1 --name SQLK8sCluster1
+
+
+
+# delete resource group
+az group delete --name containers1
