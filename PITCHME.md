@@ -245,7 +245,6 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](Specify the resource group)
 @[3](Give the cluster a name)
 @[4](Specify the number of nodes)
-@[5](Generate ssh keys if missing)
 
 <img src="assets/images/AKS-CreateCluster2019.png">
 
