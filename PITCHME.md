@@ -108,15 +108,15 @@ Container image build service<br>
 
 ---?code=assets/code/acr_push_image.azcli&lang=bash&title=Push Image
 
-<img src="assets/images/ACR-PushImage.png">
+<img src="assets/images/acr-push-image.png">
 
 ---?code=assets/code/acr_list_repos.azcli&lang=bash&title=List Repositories
 
-<img src="assets/images/ACR-ListRepos.png">
+<img src="assets/images/acr-list-repository.png">
 
 ---?code=assets/code/acr_show_tags.azcli&lang=bash&title=Show Tags
 
-<img src="assets/images/ACR-ShowTags.png">
+<img src="assets/images/acr-show-tags.png">
 
 ---
 
