@@ -72,7 +72,7 @@ Container image build service<br>
 
 ---?code=assets/code/acr_create_resource_group.azcli&lang=bash&title=Create Resource Group
 
-<img src="assets/images/ACR-CreateResourceGroup.PNG">
+<img src="assets/images/acr-create-resource-group.PNG">
 
 ---?code=assets/code/acr_create_registry.azcli&lang=bash&title=Create Registry
 
