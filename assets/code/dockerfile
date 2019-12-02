@@ -18,4 +18,4 @@ ENV MSSQL_BACKUP_DIR="/var/opt/sqlserver"
 ENV MSSQL_DATA_DIR="/var/opt/sqlserver"
 ENV MSSQL_LOG_DIR="/var/opt/sqlserver"
 
-ENTRYPOINT /var/opt/sqlserver/attach-db.sh & /opt/mssql/bin/sqlservr
+CMD /var/opt/sqlserver/attach-db.sh & /opt/mssql/bin/sqlservr

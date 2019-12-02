@@ -101,7 +101,7 @@ Container image build service<br>
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 
-<img src="assets/images/docker-build-image-updated.PNG">
+<img src="assets/images/docker-build-image-cmd.PNG">
 
 ---?code=assets/code/acr_tag_image.azcli&lang=bash&title=Tag Image
 
