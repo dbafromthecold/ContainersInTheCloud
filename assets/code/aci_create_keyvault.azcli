@@ -1,17 +1,17 @@
 az keyvault create --resource-group containers1 \
-	--name aptestkeyvault01
+--name aptestkeyvault01
 
 az keyvault secret set \
-  --vault-name aptestkeyvault01 \
-  --name testcontainerregistry01-pull-pwd \
-  --value $(az ad sp create-for-rbac \
-	--name testcontainerregistry01-pull \
-	--scopes $(az acr show --name testcontainerregistry01 --query id –-output tsv) \
-			--role reader --query password --output tsv)
+--vault-name aptestkeyvault01 \
+--name aptestcontainerregistry01-pull-pwd \
+--value $(az ad sp create-for-rbac \
+--name aptestcontainerregistry01-pull \
+--scopes $(az acr show --name aptestcontainerregistry01 --query id –-output tsv) 
+--role reader --query password --output tsv)
 
 az keyvault secret set \
-  --vault-name aptestkeyvault01 \
-  --name testcontainerregistry01-pull-usr \
-  --value $(az ad sp show --id http://testcontainerregistry01-pull \
-		--query appId --output tsv)
+--vault-name aptestkeyvault01 \
+--name aptestcontainerregistry01-pull-usr \
+--value $(az ad sp show --id http://aptestcontainerregistry01-pull \
+--query appId --output tsv)
 

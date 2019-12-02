@@ -92,11 +92,12 @@ Container image build service<br>
 @[3](Switching to the root user)
 @[5](Creating a new directory)
 @[7-8](Copying database files to the new directory)
-@[10](Copy script to attach database into container)
-@[11](Make script executable)
-@[13](Switch to the mssql user)
-@[15-17](Set SQL default directories)
-@[19](Run script to attach database)
+@[10](Grant access to files)
+@[12](Copy script to attach database into container)
+@[13](Make script executable)
+@[15](Switch to the mssql user)
+@[17-19](Set SQL default directories)
+@[21](Run script to attach database)
 
 ---?code=assets/code/acr_build_image.azcli&lang=bash&title=Build Container Image
 

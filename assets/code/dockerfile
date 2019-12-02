@@ -7,6 +7,8 @@ RUN mkdir /var/opt/sqlserver
 COPY TestDatabase.mdf /var/opt/sqlserver
 COPY TestDatabase_Log.ldf /var/opt/sqlserver
 
+RUN chown -R mssql /var/opt/sqlserver
+
 COPY attach-db.sh /var/opt/sqlserver
 RUN chmod +x /var/opt/sqlserver/attach-db.sh
 
