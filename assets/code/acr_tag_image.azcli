@@ -1,2 +1,2 @@
-docker tag testimage \
-	aptestcontainerregistry01.azurecr.io/devsqlimage:latest
+docker tag testimage `
+aptestcontainerregistry01.azurecr.io/devsqlimage:latest

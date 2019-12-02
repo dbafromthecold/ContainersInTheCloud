@@ -1,17 +1,16 @@
-az aks show \
-	--resource-group containers1 \
-		--name SQLK8sCluster1 \
-			--query "servicePrincipalProfile.clientId" \
-				--output tsv
+az aks show `
+--resource-group containers1 `
+--name SQLK8sCluster1 `
+--query "servicePrincipalProfile.clientId" `
+--output tsv
 
-az acr show \
-	--name TestContainerRegistry01 \
-		--resource-group containers1 \
-			--query "id" \
-				--output tsv
+az acr show `
+--name TestContainerRegistry01 `
+--resource-group containers1 `
+--query "id" `
+--output tsv
 
 az role assignment create 
-	--assignee <<CLIENTID>> \
-		--role Reader \
-			--scope <<ACRID>>
-
+--assignee <<CLIENTID>> `
+--role Reader `
+--scope <<ACRID>>
