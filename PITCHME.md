@@ -188,7 +188,7 @@ Supports mounting external volumes
 @[15](Specifying the IP address type)
 @[16](Specifying the port to connect to)
 
----?code=assets/code/aci_get_container_status_updated.azcli&lang=bash&title=Get Container Status
+---?code=assets/code/aci_get_container_status.azcli&lang=bash&title=Get Container Status
 
 <p align=center>
 <img src="assets/images/aci-container-details.PNG">
