@@ -68,7 +68,7 @@ Container image build service<br>
 
 ---?code=assets/code/acr_login.azcli&lang=bash&title=Login to Azure Account
 
-<img src="assets/images/azure_portal_login.PNG">
+<img src="assets/images/azure_portal_login_50.PNG">
 
 ---?code=assets/code/acr_create_resource_group.azcli&lang=bash&title=Create Resource Group
 
