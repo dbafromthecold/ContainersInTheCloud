@@ -191,7 +191,7 @@ Supports mounting external volumes
 ---?code=assets/code/aci_get_container_status.azcli&lang=bash&title=Get Container Status
 
 <p align=center>
-<img src="assets/images/ACI-GetContainerStatus2019CTP3.0_rsz.png">
+<img src="assets/images/aci-container-details.PNG">
 </p>
 
 ---
@@ -199,7 +199,7 @@ Supports mounting external volumes
 ### Connect to Azure Container Instance
 
 <p align=center>
-<img src="assets/images/ACI-ConnectToContainer2019CTP3.0.png">
+<img src="assets/images/aci-connect-to-sql.PNG">
 </p>
 
 ---
@@ -208,26 +208,15 @@ Supports mounting external volumes
 
 ---
 
-## Azure Container Services
+## Azure Kubernetes Service
 
 ---
 
-### Azure Container Services
+### Azure Kubernetes Service
 
 @size[0.8em](https://azure.microsoft.com/en-us/services/container-service/)
 
-<img src="assets/images/AzureContainerServices.png">
-
----
-
-### Azure Container Services
-
-<br><b>Two flavours</b> <br>
-Azure Container Services (ACS) <br>
-Azure Kubernetes Services (AKS) <br>
-<br>
-ACS allows multiple orchestrators <br>
-AKS is specifically built to implement Kubernetes
+<img src="assets/images/azure-kubernetes-service.PNG">
 
 ---
 
@@ -244,7 +233,7 @@ AKS is specifically built to implement Kubernetes
 
 ---
 
-### Azure Container Services (AKS)
+### Azure Kubernetes Service (AKS)
 
 Simplifies deployment of Kubernetes clusters <br>
 Cluster can be spun up with one line of code <br>
