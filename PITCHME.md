@@ -275,7 +275,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[7-11](Get Azure Container Registry ID)
 @[13-16](Create role to allow access to ACR)
 
----?code=assets/code/aks_yaml_file.yaml&lang=yaml&title=AKS yaml file
+---?code=assets/code/aks_yaml_deployment.yaml&lang=yaml&title=AKS yaml file
 
 @[3-4](Metadata of deployment)
 @[6](Number of replicas)
