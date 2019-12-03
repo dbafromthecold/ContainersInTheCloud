@@ -263,11 +263,15 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---?code=assets/code/aks_get_cluster_credentials.azcli&lang=bash&title=Get Cluster Credentials
 
+<p align=center>
 <img src="assets/images/AKS-GetClusterCredentials2019.png">
+</p>
 
 ---?code=assets/code/aks_view_cluster_nodes.azcli&lang=bash&title=View Cluster Nodes
 
-<img src="assets/images/AKS-ViewNodes.png">
+<p align=center>
+<img src="assets/images/aks_get_nodes.PNG">
+</p>
 
 ---?code=assets/code/aks_create_role.azcli&lang=bash&title=Create Role
 
@@ -292,7 +296,9 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to Cluster
 
+<p align=center>
 <img src="assets/images/AKS-DeployToCluster.png">
+</p>
 
 ---?code=assets/code/aks_deployment_info.azcli&lang=bash&title=View Deployment
 
@@ -307,12 +313,6 @@ Managed by Azure-CLI/powershell and kubectl <br>
 ### Connect to SQL Server
 
 <img src="assets/images/AKS-ConnectToSqlServer2019CTP3.0.png">
-
----
-
-### Kubernetes Dashboard
-
-<img src="assets/images/AKS-KubernetesDashboard.png">
 
 ---
 
