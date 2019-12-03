@@ -306,13 +306,17 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](View nodes)
 @[3](View services)
 
+<p align=center>
 <img src="assets/images/aks_deployment_details.PNG">
+</p>
 
 ---
 
 ### Connect to SQL Server
 
+<p align=center>
 <img src="assets/images/aks_connect_to_sql.PNG">
+</p>
 
 ---
 
