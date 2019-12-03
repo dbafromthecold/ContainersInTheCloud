@@ -1,4 +1,5 @@
 az aks create `
 --resource-group containers1 `
 --name SQLK8sCluster1 `
---node-count 2
+--node-count 2 `
+--generate-ssh-keys

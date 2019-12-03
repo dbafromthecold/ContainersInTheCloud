@@ -1,36 +1,37 @@
-apiVersion: apps/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sqlserver2
-  labels:
-    app: sqlserver2
+  name: sqlserver
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      name: sqlserver
   template:
     metadata:
       labels:
-        name: sqlserver2
+        name: sqlserver
     spec:
       containers:
-      - name: sqlserver2
+      - name: sqlserver1
         image: apregistry.azurecr.io/devsqlimage:latest
         ports:
         - containerPort: 1433
         env:
         - name: SA_PASSWORD
-          value: Testing1122
+          value: "Testing1122"
         - name: ACCEPT_EULA
           value: "Y"
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: sqlserver2-service
+  name: sqlserver-service
 spec:
   ports:
-  - name: sqlserver2
+  - name: sqlserver
     port: 1433
     targetPort: 1433
   selector:
-    name: sqlserver2
-  type: LoadBalancer
+    name: sqlserver
+  type: ClusterIP

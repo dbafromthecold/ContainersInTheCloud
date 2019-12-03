@@ -82,7 +82,9 @@ Container image build service<br>
 
 ---?code=assets/code/acr_login_registry.azcli&lang=bash&title=Log into Registry
 
+<p align=center>
 <img src="assets/images/acr-log-into-registry.PNG">
+</p>
 
 ---?code=assets/code/acr_get_registry_details.azcli&lang=bash&title=Get Registry Details
 
@@ -115,11 +117,15 @@ Container image build service<br>
 
 ---?code=assets/code/acr_list_repos.azcli&lang=bash&title=List Repositories
 
+<p align=center>
 <img src="assets/images/acr-list-repository.PNG">
+</p>
 
 ---?code=assets/code/acr_show_tags.azcli&lang=bash&title=Show Tags
 
+<p align=center>
 <img src="assets/images/acr-show-tags.PNG">
+</p>
 
 ---
 
@@ -270,18 +276,17 @@ Managed by Azure-CLI/powershell and kubectl <br>
 
 ---?code=assets/code/aks_yaml_file.yaml&lang=yaml&title=AKS yaml file
 
-@[3-6](Metadata of deployment)
-@[8](Number of replicas)
-@[13-23](Pod declaration)
-@[15](Pod name)
-@[16](Image to be used)
-@[17-18](Port on pod)
-@[19-23](Setting environment variables)
-@[24-35](Service)
-@[26-27](Metadata)
-@[29-32](Port on service to port on pod)
-@[33-35](Selector)
-@[35](External IP address)
+@[3-4](Metadata of deployment)
+@[6](Number of replicas)
+@[14-24](Pod declaration)
+@[16](Container name)
+@[17](Image to be used)
+@[18-19](Port)
+@[20-24](Setting environment variables)
+@[25-36](Service)
+@[27-28](Metadata)
+@[30-33](Port on service to port on pod)
+@[34-36](External IP address)
 
 ---?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to Cluster
 
