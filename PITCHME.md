@@ -275,7 +275,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[7-11](Get Azure Container Registry ID)
 @[13-16](Create role to allow access to ACR)
 
----?code=assets/code/aks_yaml_file_updated.yaml&lang=yaml&title=AKS yaml file
+---?code=assets/code/aks_yaml_file.yaml&lang=yaml&title=AKS yaml file
 
 @[3-4](Metadata of deployment)
 @[6](Number of replicas)
@@ -287,7 +287,8 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[25-36](Service)
 @[27-28](Metadata)
 @[30-33](Port on service to port on pod)
-@[34-36](External IP address)
+@[34-35](Map service to pod)
+@[36](External IP address)
 
 ---?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to Cluster
 

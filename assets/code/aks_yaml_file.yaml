@@ -33,4 +33,4 @@ spec:
     targetPort: 1433
   selector:
     name: sqlserver
-  type: ClusterIP
+  type: LoadBalancer
