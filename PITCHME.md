@@ -23,7 +23,7 @@ To give an overview of the different options available to run SQL Server contain
 
 Azure Container Registry <br>
 Azure Container Instances <br>
-Azure Container Services
+Azure Kubernetes Service
 
 ---
 
@@ -35,7 +35,7 @@ Azure Container Services
 
 @size[0.8em](https://azure.microsoft.com/en-us/services/container-registry/)
 
-<img src="assets/images/AzureContainerRegistry.png">
+<img src="assets/images/AzureContainerRegistry.PNG">
 
 ---
 
@@ -64,7 +64,7 @@ Container image build service<br>
 
 ### SKUs
 
-<img src="assets/images/ACR-SKUs.png">
+<img src="assets/images/acr-skus.PNG">
 
 ---?code=assets/code/acr_login.azcli&lang=bash&title=Login to Azure Account
 
@@ -141,7 +141,7 @@ Container image build service<br>
 
 @size[0.8em](https://azure.microsoft.com/en-us/services/container-instances/)
 
-<img src="assets/images/AzureContainerInstances.png">
+<img src="assets/images/AzureContainerInstances.PNG">
 
 ---
 
@@ -255,22 +255,22 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[4](Specify the number of nodes)
 @[5](Generate ssh keys)
 
-<img src="assets/images/AKS-CreateCluster2019.png">
+<img src="assets/images/aks-create-cluster.PNG">
 
 ---?code=assets/code/aks_install_kubectl.azcli&lang=bash&title=Install Kubectl
 
-<img src="assets/images/AKS-InstallKubectl.png">
+<img src="assets/images/aks-install-kubectl.PNG">
 
 ---?code=assets/code/aks_get_cluster_credentials.azcli&lang=bash&title=Get Cluster Credentials
 
 <p align=center>
-<img src="assets/images/AKS-GetClusterCredentials2019.png">
+<img src="assets/images/aks-get-cluster-creds.PNG">
 </p>
 
 ---?code=assets/code/aks_view_cluster_nodes.azcli&lang=bash&title=View Cluster Nodes
 
 <p align=center>
-<img src="assets/images/aks_get_nodes.PNG">
+<img src="assets/images/aks-get-nodes.PNG">
 </p>
 
 ---?code=assets/code/aks_create_role.azcli&lang=bash&title=Create Role
@@ -297,7 +297,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 ---?code=assets/code/aks_deploy_to_cluster.azcli&lang=bash&title=Deploy to Cluster
 
 <p align=center>
-<img src="assets/images/AKS-DeployToCluster.png">
+<img src="assets/images/aks-deploy-to-cluster.PNG">
 </p>
 
 ---?code=assets/code/aks_deployment_info.azcli&lang=bash&title=View Deployment
