@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sqlserver1
-        image: apregistry.azurecr.io/devsqlimage:latest
+        image: aptestcontainerregistry01.azurecr.io/devsqlimage:latest
         ports:
         - containerPort: 1433
         env:
@@ -34,4 +34,4 @@ spec:
     targetPort: 1433
   selector:
     name: sqlserver
-  type: ClusterIP
+  type: LoadBalancer

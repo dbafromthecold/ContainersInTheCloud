@@ -5,7 +5,7 @@ az aks show `
 --output tsv
 
 az acr show `
---name TestContainerRegistry01 `
+--name ApTestContainerRegistry01 `
 --resource-group containers1 `
 --query "id" `
 --output tsv

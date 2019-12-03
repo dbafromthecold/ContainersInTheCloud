@@ -253,7 +253,7 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](Specify the resource group)
 @[3](Give the cluster a name)
 @[4](Specify the number of nodes)
-@[5](Generete ssh keys)
+@[5](Generate ssh keys)
 
 <img src="assets/images/AKS-CreateCluster2019.png">
 
@@ -306,13 +306,13 @@ Managed by Azure-CLI/powershell and kubectl <br>
 @[2](View nodes)
 @[3](View services)
 
-<img src="assets/images/AKS-DeploymentInformation2019CTP3.0.png">
+<img src="assets/images/aks_deployment_details.PNG">
 
 ---
 
 ### Connect to SQL Server
 
-<img src="assets/images/AKS-ConnectToSqlServer2019CTP3.0.png">
+<img src="assets/images/aks_connect_to_sql.PNG">
 
 ---
 
