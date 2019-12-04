@@ -34,7 +34,8 @@ docker images
 
 
 # build custom image
-docker build -t testimage /home/dbafromthecold/git/ContainersInTheCloud/Code
+docker build -t testimage C:\git\dbafromthecold\ContainersInTheCloud\demos\az-cli\setup
+#docker build -t testimage /home/dbafromthecold/git/ContainersInTheCloud/demos/az-cli/setup
 
 
 

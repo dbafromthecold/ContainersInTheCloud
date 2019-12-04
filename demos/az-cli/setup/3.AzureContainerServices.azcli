@@ -53,7 +53,7 @@ az role assignment create --assignee $K8sID --role Reader --scope $AcrID
 
 
 # deploy to cluster
-kubectl apply -f sqlserver.yml
+kubectl apply -f sqlserver.yaml
 
 
 

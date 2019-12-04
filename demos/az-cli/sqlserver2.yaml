@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sqlserver
+  name: sqlserver2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      name: sqlserver
+      name: sqlserver2
   template:
     metadata:
       labels:
-        name: sqlserver
+        name: sqlserver2
     spec:
       containers:
-      - name: sqlserver1
-        image: aptestcontainerregistry01.azurecr.io/devsqlimage:latest
+      - name: sqlserver2
+        image: apregistry.azurecr.io/devsqlimage:latest
         ports:
         - containerPort: 1433
         env:
@@ -26,12 +26,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: sqlserver-service
+  name: sqlserver2-service
 spec:
   ports:
-  - name: sqlserver
+  - name: sqlserver2
     port: 1433
     targetPort: 1433
   selector:
-    name: sqlserver
+    name: sqlserver2
   type: LoadBalancer
