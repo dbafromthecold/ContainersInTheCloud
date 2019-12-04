@@ -30,7 +30,8 @@ docker images
 
 
 # build image
-docker build -t testimage /home/dbafromthecold/git/ContainersInTheCloud/Code
+docker build -t testimage C:\git\dbafromthecold\ContainersInTheCloud\demos\az-cli\setup
+#docker build -t testimage /home/dbafromthecold/git/ContainersInTheCloud/Code
 
 
 
@@ -40,9 +41,9 @@ docker images
 
 
 # run container locally to confirm
-docker run -d -p 15789:1433 \
---env ACCEPT_EULA=Y \
---env SA_PASSWORD=Testing1122 \
+docker run -d -p 15789:1433 `
+--env ACCEPT_EULA=Y `
+--env SA_PASSWORD=Testing1122 `
 --name testcontainer testimage
 
 

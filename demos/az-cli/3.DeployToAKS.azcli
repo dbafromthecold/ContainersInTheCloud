@@ -39,7 +39,7 @@ cd /home/dbafromthecold/git/ContainersInTheCloud/Demos
 
 
 # deploy to cluster
-kubectl apply -f sqlserver2.yml
+kubectl apply -f sqlserver2.yaml
 
 
 
