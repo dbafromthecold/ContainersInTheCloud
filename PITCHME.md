@@ -2,7 +2,7 @@
 
 ---
 
-<img src="assets/images/sql_sat_charlotte_sponsors.PNG">
+<img src="assets/images/sql_sat_charlotte_sponsors.png">
 
 ---
 
