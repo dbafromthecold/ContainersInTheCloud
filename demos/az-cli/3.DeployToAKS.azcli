@@ -9,7 +9,7 @@ az login
 
 
 # get credentials to connect to cluster
-az aks get-credentials --resource-group containers1 --name SQLK8sCluster
+az aks get-credentials --resource-group containers1 --name SQLK8sCluster2
 
 
 
@@ -19,7 +19,7 @@ kubectl get nodes
 
 
 # Get client ID
-az aks show --resource-group containers1 --name SQLK8sCluster --query "servicePrincipalProfile.clientId" --output tsv
+az aks show --resource-group containers1 --name SQLK8sCluster2 --query "servicePrincipalProfile.clientId" --output tsv
 
 
 
@@ -34,7 +34,7 @@ az role assignment create --assignee <<CLIENTID>> --role Reader --scope <<ACRID>
 
 
 # set location to .yml file
-cd /home/dbafromthecold/git/ContainersInTheCloud/Demos
+cd /home/dbafromthecold/git/ContainersInTheCloud/demos/az-cli
 
 
 

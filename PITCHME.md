@@ -2,6 +2,10 @@
 
 ---
 
+<img src="assets/images/sql_sat_charlotte_sponsors.PNG">
+
+---
+
 ## Andrew Pruski
 
 ### SQL Server DBA & Microsoft Data Platform MVP

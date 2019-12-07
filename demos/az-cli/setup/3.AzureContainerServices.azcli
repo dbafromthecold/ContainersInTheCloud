@@ -28,7 +28,7 @@ az aks install-cli
 
 
 # get credentials to connect to cluster
-az aks get-credentials --resource-group containers1 --name SQLK8sCluster1
+az aks get-credentials --resource-group containers1 --name SQLK8sCluster2
 
 
 
@@ -38,7 +38,7 @@ kubectl get nodes
 
 
 # Get client ID of cluster
-K8sID=$(az aks show --resource-group containers1 --name SQLK8sCluster1 --query "servicePrincipalProfile.clientId" --output tsv)
+K8sID=$(az aks show --resource-group containers1 --name SQLK8sCluster2 --query "servicePrincipalProfile.clientId" --output tsv)
 
 
 
