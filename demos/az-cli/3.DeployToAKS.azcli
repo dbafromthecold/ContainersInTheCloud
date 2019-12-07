@@ -49,7 +49,7 @@ kubectl get deployments
 
 
 # view pods
-kubectl get pods -o wide
+kubectl get pods 
 
 
 
@@ -87,7 +87,7 @@ kubectl get pods
 
 
 # delete pod
-kubectl delete pod podname
+kubectl delete pod sqlserver2-54cc55c9db-zjcmr
 
 
 

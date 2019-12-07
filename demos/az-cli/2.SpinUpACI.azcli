@@ -19,7 +19,7 @@ az acr repository list --name apregistry --output table
 # Create container
 az container create \
 --resource-group containers1 \
---image apregistry.azurecr.io/devsqlimage:v5 \
+--image apregistry.azurecr.io/devsqlimage:v4 \
 --registry-username $(az keyvault secret show \
 --vault-name aptestkeyvault01 \
 --name apregistry-pull-usr \
